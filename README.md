@@ -1,1 +1,0 @@
-# spark_and_data_lake
