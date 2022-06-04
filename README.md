@@ -2,6 +2,11 @@
 
 This project builds an ELT pipeline for the music streaming application Sparkify. Data will be extracted from an S3 bucket, transformed into fact and dimension tables using Apache Spark DataFrame API and loaded back to S3 in parquet format for efficient storage and retrieval.
 
+# Tech stack
+
+![Python](https://img.shields.io/badge/python-3.6-blue)
+![Spark](https://img.shields.io/badge/Apache%20Spark-2.4.3-green)
+
 ## Files
 
 + `etl.py`  : This file reads song and log data from S3, transforms them into fact and dimension tables using spark and finally writes the tables back to S3 in parquet format.
