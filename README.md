@@ -4,7 +4,7 @@ This project builds an ELT pipeline for the music streaming application Sparkify
 
 # Tech stack
 
-![Python](https://img.shields.io/badge/python-3.6-blue)
+![Python](https://img.shields.io/badge/Python-3.6.3-blue)
 ![Spark](https://img.shields.io/badge/Apache%20Spark-2.4.3-green)
 
 ## Files
