@@ -30,8 +30,8 @@ def process_song_data(spark, input_data, output_data):
     Finally, writes the tables to given output S3 bucket in parquet format
     Parameters:
             spark       (SparkSession): Spark session object
-            input_data    (input_data): Path of the S3 bucket where data resides
-            output_data  (output_data): Path of the S3 bucket where songs and artists tables will be written to
+            input_data           (str): Path of the S3 bucket where data resides
+            output_data          (str): Path of the S3 bucket where songs and artists tables will be written to
     '''
     # get filepath to song data file
     song_data = input_data + 'song_data/*/*/*/*.json'
@@ -59,8 +59,8 @@ def process_log_data(spark, input_data, output_data):
     Finally, writes the tables to given output S3 bucket in parquet format
     Parameters:
             spark       (SparkSession): Spark session object
-            input_data    (input_data): Path of the S3 bucket where data resides
-            output_data  (output_data): Path of the S3 bucket where users, time and songplays tables will be written to
+            input_data           (str): Path of the S3 bucket where data resides
+            output_data          (str): Path of the S3 bucket where users, time and songplays tables will be written to
     '''
     # get filepath to log data file
     log_data = input_data + 'log_data/*/*/*.json'
